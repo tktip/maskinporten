@@ -1,4 +1,4 @@
-module bitbucket.org/tktip/maskinporten
+module github.com/tktip/maskinporten
 
 go 1.12
 
