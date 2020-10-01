@@ -1,0 +1,9 @@
+debug: true
+
+maskinporten:
+  publicKey: pubkey.pem
+  privateKey: privkey.pem
+  tokenEndpoint:
+  scope:
+  aud:
+  iss:
