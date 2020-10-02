@@ -2,7 +2,7 @@ package main
 
 import (
 	"github.com/tktip/maskinporten/pkg/maskinporten"
-	"github.com/haraldfw/cfger"
+	"github.com/tktip/cfger"
 	log "github.com/sirupsen/logrus"
 )
 
@@ -29,6 +29,7 @@ func main() {
 	if err != nil {
 		log.Error(err)
 	}
+
 	//print it!
 	log.Info(res.AccessToken)
 }
