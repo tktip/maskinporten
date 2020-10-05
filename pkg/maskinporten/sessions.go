@@ -22,7 +22,6 @@ type Handler struct {
 	signKey   *rsa.PrivateKey
 	x5CHeader []string
 
-	Debug         bool   `yaml:"Debug"`
 	PrivateKey    string `yaml:"privateKey"`
 	PublicKey     string `yaml:"publicKey"`
 	TokenEndpoint string `yaml:"tokenEndpoint"`
